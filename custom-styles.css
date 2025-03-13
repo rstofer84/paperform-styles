@@ -1,0 +1,48 @@
+/* Paperform Custom Styles */
+
+/* Input fields and textareas */
+.pf-field input, 
+.pf-field textarea, 
+.pf-field select {
+    border: none !important;
+    border-bottom: 2px solid #4CAF50 !important; /* Green underline */
+    background-color: transparent !important;
+    font-size: 16px !important;
+    color: #000 !important;
+    padding: 10px 5px !important;
+    width: 100% !important;
+}
+
+/* Placeholder text */
+.pf-field input::placeholder, 
+.pf-field textarea::placeholder {
+    color: #A0A0A0 !important;
+    font-size: 16px !important;
+    font-style: italic !important;
+}
+
+/* Dropdown Styling */
+.pf-field select {
+    appearance: none !important;
+    background: url('your-custom-arrow.svg') no-repeat right 10px center !important;
+    background-size: 12px !important;
+    padding-right: 25px !important;
+}
+
+/* Submit button styling */
+.pf-submit {
+    background-color: transparent !important;
+    border: 2px solid #000 !important;
+    color: #000 !important;
+    font-size: 16px !important;
+    font-weight: bold !important;
+    padding: 12px 24px !important;
+    text-transform: uppercase !important;
+    cursor: pointer !important;
+    transition: all 0.3s ease-in-out !important;
+}
+
+.pf-submit:hover {
+    background-color: #000 !important;
+    color: #fff !important;
+}
